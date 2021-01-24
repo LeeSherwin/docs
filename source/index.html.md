@@ -841,7 +841,7 @@ Reference data APIs provide public reference information such as system status, 
 
 This endpoint allows users to get system status, Incidents and planned maintenance.
 
-The system status can also be obtained through email, SMS, webhook, RSS/Atom feed. Users can You can click <a href='https://status.huobigroup.com/'>here</a> to subscribe. The subscription function depends on Google services. Before you subscribe, please ensure that you can access Google services normally. 
+The system status can also be obtained through email, SMS, webhook, RSS/Atom feed. Users can click <a href='https://status.huobigroup.com/'>here</a> to subscribe. The subscription function depends on Google services. Before you subscribe, please ensure that you can access Google services normally. 
 
 ```shell
 curl "https://status.huobigroup.com/api/v2/summary.json"
@@ -1011,8 +1011,8 @@ No parameter is available for this endpoint.
 |[{id        |  string                    | component id
 |name        |    string                  | component name, including Order submission, Order cancellation, Deposit etc.
 |status        |    string                  | component status, value range: operational, degraded_performance, partial_outage, major_outage, under maintenance
-|created_at        |    string                  | component create time
-|updated_at        |    string                  | component update time
+|created_at        |    string                  | component created time
+|updated_at        |    string                  | component updated time
 |.......}]        |                     | for details of other fields, please refer to the return example
 |incidents  |           | System fault incident and their status. If there is no fault at present, it will return to null
 |[{id        |       string               | incident id
