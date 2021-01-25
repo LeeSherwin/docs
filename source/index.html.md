@@ -1349,7 +1349,7 @@ No parameter is needed for this endpoint.
 
 ### Response Content
 
-The returned "Data" field contains an integer represents the timestamp in milliseconds adjusted to Singapore time.
+The returned "Data" field contains an integer representing the timestamp in milliseconds adjusted to Singapore time.
 
 # Market Data
 
